@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100%;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.top {
+    padding-left: 340px;
+    padding-top: 18px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 6vh;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.nav-bot {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    background-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding-top: 0px;
+    text-transform: capitalize;
+    gap: 20px;
+    position: fixed;
+    top: 3pc;
+}
+
+img {
+    background-color: transparent;
+    height: 90px;
+    width: 180px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 1pc;
+    
+}
+
+#nav-top {
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    gap: 50px;
+    color: white;
+    font-size: large;
+}
+
+.cont {
+    color: white;
+    display: flex;
+    padding-top: 15px;
+    position: relative;
+    left: 300px;
+    gap: 45px;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+button {
+    border-radius: 25px;
+    background-color: #944c9c;
+    border: #944c9c;
+    color: white;
+    width: 180px;
+    height: 8vh;
+    font-size: 15px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 0.5pc;
+    right: 1pc;
+    
+
+}
+
+.para {
+    font-size: 5em;
+    font-weight: bolder;
+    font-family: sans-serif;
+    align-items: center;
+    position: relative;
+    left: 150px;
+}
+
+.you {
+    background-color: #2c3494;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    height: 80vh;
+    color: white;
+    align-items: center;
+    padding-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.csc {
+    position: relative;
+    left: 200px;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-top: 25px;
+    padding-bottom: 55px;
+    line-height: 35px;
+}
+
+.rose {
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 500px;
+    border-radius: 25px;
+}
+
+.sec {
+    font-size: xx-large;
+}
+.yum{
+    font-size: 5em;
+    font-weight: bolder;
+    font-family: sans-serif;
+    align-items: center;
+    position: relative;
+    left: 50px;
+}
